@@ -23,12 +23,12 @@ use example:<br/>
 
 &lt;script&gt;<br/>
 
-    $(document).ready(function(){<br/>
-        var goweb = $('#mytab').goweb({});<br/>
+    $(document).ready(function(){
+        var goweb = $('#mytab').goweb({});
         
-        $('#btnAddPage').on('click', function(){<br/>
-            goweb.addTabPage();<br/>
-        });<br/>
-    });<br/>
+        $('#btnAddPage').on('click', function(){
+            goweb.addTabPage();
+        });
+    });
     
 &lt;/script&gt;<br/>
