@@ -5,6 +5,7 @@ I integration with JQuery plugins
 
 Useage :
 import the css and js
+<pre>
 <xmp>
 <!-- 新 Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="./bootstrap.css">
@@ -19,6 +20,7 @@ import the css and js
 <a href="javascript:;" id="btnAddPage" role="button">Add Page</a>
 <div id="mytab"></div>
 </xmp>
+</pre>
 use example:
 
 <script>
