@@ -4,11 +4,7 @@ This base on http://jeykeu.wordpress.com/2013/07/27/dynamically-add-remove-and-r
 I integration with JQuery plugins
 
 Useage :
-
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
+import the css and js
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="./bootstrap.css">
     <!-- jQuery文件。务必在bootstrap.js 之前引入 -->
@@ -18,11 +14,13 @@ Useage :
     <link rel="stylesheet" href="./goweb.css">
     <script src="./goweb.js"></script>
     <title></title>
-</head>
-<body>
+
+
 <a href="javascript:;" id="btnAddPage" role="button">Add Page</a>
-<div id="mytab">
-</div>
+<div id="mytab"></div>
+
+use example:
+
 <script>
     $(document).ready(function(){
         var goweb = $('#mytab').goweb({});
@@ -32,5 +30,4 @@ Useage :
         });
     });
 </script>
-</body>
 </html>
