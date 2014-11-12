@@ -5,25 +5,23 @@ I integration with JQuery plugins
 
 Useage :
 import the css and js
-<pre>
-<xmp>
+
 <!-- 新 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="./bootstrap.css">
+&lt;link rel="stylesheet" href="./bootstrap.css"&gt;
 <!-- jQuery文件。务必在bootstrap.js 之前引入 -->
-<script src="./jquery-2.1.1.js"></script>
+&lt;script src="./jquery-2.1.1.js"&gt;&gt;/script&gt;
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="./bootstrap.js"></script>
-<link rel="stylesheet" href="./goweb.css">
-<script src="./goweb.js"></script>
+&lt;script src="./bootstrap.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" href="./goweb.css"&gt;
+&lt;script src="./goweb.js"&gt;&lt;/script&gt;
 
 
-<a href="javascript:;" id="btnAddPage" role="button">Add Page</a>
-<div id="mytab"></div>
-</xmp>
-</pre>
+&lt;a href="javascript:;" id="btnAddPage" role="button">Add Page&lt;/a&gt;
+&lt;div id="mytab"&gt;&lt;/div&gt;
+
 use example:
 
-<script>
+&lt;script&gt;
     $(document).ready(function(){
         var goweb = $('#mytab').goweb({});
         
@@ -31,4 +29,4 @@ use example:
             goweb.addTabPage();
         });
     });
-</script>
+&lt;/script&gt;
