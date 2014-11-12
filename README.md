@@ -5,7 +5,7 @@ I integration with JQuery plugins
 
 Useage :
 import the css and js
-<code>
+<xmp>
 <!-- 新 Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="./bootstrap.css">
 <!-- jQuery文件。务必在bootstrap.js 之前引入 -->
@@ -18,7 +18,7 @@ import the css and js
 
 <a href="javascript:;" id="btnAddPage" role="button">Add Page</a>
 <div id="mytab"></div>
-</code>
+</xmp>
 use example:
 
 <script>
